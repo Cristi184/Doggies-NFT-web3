@@ -7,6 +7,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "test:unit": "vitest",
+    "test": "vitest src/components/__tests__/NftTests.spec.js",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {
@@ -16,6 +17,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",
+    "@vitest/coverage-c8": "^0.29.2",
     "@vue/test-utils": "^2.3.0",
     "eslint": "^8.34.0",
     "eslint-plugin-vue": "^9.9.0",
