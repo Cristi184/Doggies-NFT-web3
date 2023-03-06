@@ -1,10 +1,13 @@
 # sandBox_gameNFT
 
-This template should help get you started developing with Vue 3 in Vite.
+This project queries against the doggies NFT contract address and get token information by ID, started developing with Vue 3 in Vite.
 
-## Recommended IDE Setup
+## Stack
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Vue Js
+SASS
+Web3
+JEST and Vue testing library
 
 ## Customize configuration
 
@@ -39,3 +42,6 @@ npm run test:unit
 ```sh
 npm run lint
 ```
+
+### Personal notes
+First time doing queries against a contract, looking for ABI, understanding concepts. 
